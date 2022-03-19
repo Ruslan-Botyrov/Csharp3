@@ -15,9 +15,11 @@ int sq = q * q * q;
 
 Console.WriteLine($"Куб числа {q} равен {sq}");
 
-while (q < N) 
+while (q < N)
 {
     q = q + 1;
-    sq = q * q * q; 
-        Console.WriteLine($"Куб числа {q} равен {sq}");
+    sq = q * q * q;
+    Console.WriteLine($"Куб числа {q} равен {sq}");
 }
+
+
